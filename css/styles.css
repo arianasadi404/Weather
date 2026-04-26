@@ -1,6 +1,84 @@
 @font-face {
   font-family: "Vazir";
-  src: url("vazir-font-v18.0.0/Vazir-Light.woff") format("woff");
-  src: url("vazir-font-v18.0.0/Vazir-Light.woff2") format("woff2");
-  src: url("vazir-font-v18.0.0/Vazir-Light.ttf") format("truetype");
+  src: url("../fonts/Vazir/Vazir-Medium.woff") format("woff");
+  src: url("../fonts/Vazir/Vazir-Bold.woff2") format("woff2");
+  src: url("../fonts/Vazir/Vazir-Medium.ttf") format("truetype");
+}
+
+.city {
+  direction: rtl;
+  background: linear-gradient(135deg, #2b3b5c 0%, #4a5f7a 50%, #6b7f9a 100%);
+  width: 50rem;
+  margin: 0px auto;
+  margin-top: 10rem;
+  padding: 3rem 5rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+/* top_section********** */
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  font-size: 32px;
+  color: red;
+}
+
+.date {
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-right: 4rem;
+}
+
+.day-status {
+  font-size: 3rem;
+}
+
+/* city_name********** */
+.city-name {
+  text-align: center;
+  margin: 4rem;
+}
+
+/* status********** */
+.status {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4rem 0;
+}
+
+.status-img-container {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.status-img-container img {
+  width: 12rem;
+}
+
+.status-text {
+  font-size: 2.2rem;
+  font-weight: 900;
+}
+
+/*  weather-features********** */
+
+.weather-features {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature {
+  font-size: 2.5rem;
+  display: flex;
+  flex-direction: column;
 }

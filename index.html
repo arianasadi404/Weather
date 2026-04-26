@@ -5,11 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather</title>
 
-    <!-- Styles_css********** -->
+    <!-- styles_css********** -->
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/rest.css" />
   </head>
+
   <body>
+    <section class="city">
+      <!-- top_section********** -->
+      <header class="top">
+        <div>
+          <span class="icon">&#9711;</span>
+        </div>
+
+        <div class="time">
+          <span class="day-status" id="dayStatus">شنبه</span>
+          <span class="date" id="date">1405/2/6</span>
+        </div>
+      </header>
+
+      <!-- city_name********** -->
+      <div class="city-name">
+        <h1 id="cityName">سنندج</h1>
+      </div>
+
+      <!-- status********** -->
+      <div class="status">
+        <div class="status-img-container">
+          <img src="photo/set-4/light/scattered_showers_day.svg" alt="" />
+        </div>
+        <div class="status-text" id="statusText">بارانی</div>
+      </div>
+
+      <!-- weather-features********** -->
+      <div class="weather-features">
+        <div class="temperature feature">
+          <h5>دمای هوا</h5>
+          <span id="temperature"></span>
+        </div>
+
+        <div class="humidity feature">
+          <h5>رطوبت</h5>
+          <span id="Humidity"></span>
+        </div>
+
+        <div class="wind feature">
+          <h5>سرعت باد</h5>
+          <span id="wind"></span>
+        </div>
+      </div>
+    </section>
+
     <!-- script********** -->
     <script src="js/script.js"></script>
   </body>

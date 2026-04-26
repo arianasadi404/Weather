@@ -14,7 +14,8 @@ body {
   font-family: "Vazir";
   font-size: 1.6rem;
   line-height: 1.5;
-  background-color: #fafafa;
-  background: linear-gradient(135deg, #2b3b5c 0%, #4a5f7a 50%, #6b7f9a 100%);
-  min-height: 100vh;
+  background-color: #bdbcbc;
+  background-repeat: repeat;
+  background-size: contain;
+  color: #fff;
 }
