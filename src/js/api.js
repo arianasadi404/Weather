@@ -1,3 +1,6 @@
+import { getWeatherDescription } from "./ui.js";
+import { temperature, humidity, wind, statusText } from "./elements.js";
+
 // FETCH WEATHER DATA**********
 const xhr = new XMLHttpRequest();
 xhr.open(

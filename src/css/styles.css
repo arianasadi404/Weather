@@ -1,8 +1,8 @@
 @font-face {
   font-family: "Vazir";
-  src: url("../fonts/Vazir/Vazir-Medium.woff") format("woff");
-  src: url("../fonts/Vazir/Vazir-Bold.woff2") format("woff2");
-  src: url("../fonts/Vazir/Vazir-Medium.ttf") format("truetype");
+  src: url("/fonts/Vazir/Vazir-Medium.woff") format("woff");
+  src: url("/fonts/Vazir/Vazir-Bold.woff2") format("woff2");
+  src: url("/fonts/Vazir/Vazir-Medium.ttf") format("truetype");
 }
 
 .city {

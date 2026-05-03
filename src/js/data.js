@@ -1,6 +1,6 @@
 // WEATHER CONDITIONS DATA**********
 // Dictionary mapping weather codes to Persian descriptions and icons**********
-const weatherDataDict = {
+export const weatherDataDict = {
   0: { text: "آسمان صاف", icon: "../photo/set-4/light/clear_day.svg" },
   1: { text: "عمدتاً صاف", icon: "../photo/set-4/light/clear_day.svg" },
   2: {
